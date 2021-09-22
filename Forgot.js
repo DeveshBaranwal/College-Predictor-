@@ -1,0 +1,10 @@
+$(document).ready(function(){
+	$('#okforgot').click(function(){
+    	$('#login').addClass("reg");
+    	$('#forgot').removeClass("reg");
+  	});
+	$('#oklogin2').on("click",function(){
+    	$('#forgot').addClass("reg");
+    	$('#login').removeClass("reg");
+  	});
+});
